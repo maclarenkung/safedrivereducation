@@ -33,6 +33,12 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/8f9e6c018f.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>SAFEDRIVER EDUCATOIN</title>
   </head>
   <body>
@@ -391,9 +397,11 @@
               <h5>TEL : 02-961-0002</h5>
               <h5>FAX : 02-961-0002</h5>
               <h5>info@safedrivereducation.com</h5>
-              <img src="pic/Icon awesome-facebook-square.png" />
-              <img src="pic/Icon awesome-line.png" />
-              <img src="pic/Icon awesome-phone-square-alt.png" />
+              <div class="icon">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-line"></i>
+                <i class="fas fa-phone-square-alt"></i>
+              </div>
             </div>
           </div>
         </div>
@@ -530,7 +538,7 @@
       <div class="container footer1">
         <div class="col-12">
           <div class="row">
-            <div class="col-4 text-center">
+            <div class="col-4 ">
               <img class="mt-5" src="pic/logofooter.png" alt="" />
             </div>
             <div class="col-4 text-center">
@@ -568,7 +576,26 @@
     <!-- end pre footer  -->
 
     <!-- footer  -->
-    <footer></footer>
+    <footer>
+      <div class="container" style="padding-top: 60px;">
+        <div class="row">
+          <div class="col-4">
+            <div class="icon">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-line"></i>
+              <i class="fas fa-phone-square-alt"></i>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <p style="margin-top: 30px;">
+              Copyright 2019 Safe Driver Education Company Limited. All rights
+              reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- end footer  -->
   </body>
 </html>
@@ -667,6 +694,12 @@
   /* footer  */
   footer {
     height: 210px;
+  }
+  .color-icon {
+    color: #114e8f;
+  }
+  .icon {
+    font-size: 60px;
   }
   /* end footer  */
 </style>
