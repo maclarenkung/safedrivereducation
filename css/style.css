@@ -38,6 +38,22 @@ nav .container {
 .lowheader {
   height: 740px;
 }
+.title3button{
+  color: #125091;
+  font-weight: bold;
+}
+.sub3button{
+  color: #ffba2c;
+}
+.subbutton {
+  
+  font-weight: bold;
+  background-color: #125091;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
 .vl {
   border-left: 3px solid green;
   height: auto;
@@ -88,15 +104,39 @@ nav .container {
 .all-course {
   padding: 10px 10px;
   background-color: white;
-  border-radius: 20px;
+  color: #125091;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+}
+
+.card{
+  height: 322px;
+}
+.cardcoursestitle{
+  color: #125091;
+  font-weight: bold;
+}
+.cardcoursestext{
+  color: #125091;
+    }
+.cardcoursesdate{
+  color: #ffba2c;
+  /* avertical-align: text-bottom; */
 }
 .register {
-  width: 400px;
-  padding: 10px 10px;
-  background-color: #ffba2c;
-  border-radius: 20px;
-  margin-top: 100px;
-  margin-left: 70px;
+    width: 400px;
+    padding: 10px 10px;
+    background-color: #ffba2c;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+.btn-icon{
+  object-fit: contain;
+  cursor: pointer;
 }
 /* end sdecourse  */
 /* register tab */
