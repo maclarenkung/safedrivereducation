@@ -1,5 +1,7 @@
 /* HOME  */
+/* logo  */
 
+/* end logo  */
 /* navbar  */
 .navbar {
   padding: 0rem 0rem;
@@ -12,6 +14,9 @@ nav .container {
   background-color: #eaaa28;
   margin-top: 0rem;
   margin-bottom: 0rem;
+}
+.logo-sm {
+  background-image: url(../pic/logo_sm.png);
 }
 /* end nav  */
 
