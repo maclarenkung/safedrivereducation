@@ -49,7 +49,7 @@ nav .container {
   
   font-weight: bold;
   background-color: #125091;
-  border-radius: 20px;
+  border-radius: 50px;
   cursor: pointer;
   color: #fff;
   border: none;
@@ -97,7 +97,7 @@ nav .container {
 }
 .hrline {
   width: 100%;
-  height: 10px;
+  height: 5px;
   background-color: white;
   margin-top: 105px;
 }
@@ -109,7 +109,10 @@ nav .container {
   border-radius: 50px;
   border: none;
 }
+.card-shadow{
+  box-shadow: 0 3px 6px #e6e6e6;
 
+}
 .card{
   height: 322px;
 }
@@ -120,8 +123,12 @@ nav .container {
 .cardcoursestext{
   color: #125091;
     }
+.cardcoursestext1{
+  color: #585858;
+}
 .cardcoursesdate{
   color: #ffba2c;
+  font-weight: bold;
   /* avertical-align: text-bottom; */
 }
 .register {
@@ -152,7 +159,7 @@ nav .container {
 
 /* content */
 .content {
-  height: 1540px;
+  height: 1340px;
 }
 .freehand {
   height: 250px;
