@@ -93,7 +93,8 @@ nav .container {
 /* sde course  */
 .sdecourse {
   height: 890px;
-  background-color: #2169b7;
+  background: rgb(17,78,142);
+background: linear-gradient(360deg, rgba(17,78,142,1) 0%, rgba(32,104,181,1) 66%);
 }
 .hrline {
   width: 100%;
@@ -173,7 +174,8 @@ nav .container {
 /* pre footer  */
 .prefooter {
   height: 270px;
-  background-color: #2068b5;
+  background: rgb(17,78,142);
+background: linear-gradient(360deg, rgba(17,78,142,1) 0%, rgba(32,104,181,1) 66%);
 }
 .linknav a {
   color: white;
