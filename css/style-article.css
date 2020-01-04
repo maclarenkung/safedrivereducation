@@ -7,6 +7,35 @@
 /* END HEADER  */
 
 /* article line  */
+.headtext{
+  color: #125091;
+  font-weight: bold;
+}
+.card{
+  height: 520px;
+}
+.cardcoursestitle{
+  color: #125091;
+  font-weight: bold;
+}
+.cardcoursestext{
+  color: #125091;
+    }
+.cardcoursestext1{
+  color: #585858;
+}
+.cardcoursesdate{
+  color: #ffba2c;
+  font-weight: bold;
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 20px;
+  /* avertical-align: text-bottom; */
+}
+hr.hrline{
+  border: none;
+  border-bottom: 5px solid #ffba2c;
+}
 .line {
   width: 100%;
   height: 6px;
@@ -28,9 +57,11 @@
 }
 .load-m {
   color: white;
+  font-weight: bold;
   padding: 10px 150px;
-  background-color: #2068b5;
-  border-radius: 20px;
+  background-color: #125091;
+  border: none;
+  border-radius: 50px;
 }
 /* end article line  */
 /* end  vision for safety */
