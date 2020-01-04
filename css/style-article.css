@@ -7,6 +7,28 @@
 /* END HEADER  */
 
 /* article line  */
+.headtext{
+  color: #125091;
+  font-weight: bold;
+}
+.card{
+  height: 600px;
+}
+.cardcoursestitle{
+  color: #125091;
+  font-weight: bold;
+}
+.cardcoursestext{
+  color: #125091;
+    }
+.cardcoursestext1{
+  color: #585858;
+}
+.cardcoursesdate{
+  color: #ffba2c;
+  font-weight: bold;
+  /* avertical-align: text-bottom; */
+}
 .line {
   width: 100%;
   height: 6px;
