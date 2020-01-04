@@ -22,7 +22,19 @@
 }
 
 /* end article line  */
-
+.btn-share{
+  color: #2068b5;
+  border-color: #2068b5;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.headtext{
+  color: #125091;
+  font-weight: bold;
+}
+.titletext{
+  font-weight: bold;
+}
 .detail {
   height: 2080px;
 }
@@ -31,20 +43,103 @@
 }
 .public-c {
   height: 210px;
-  background-color: #2068b5;
+  background: rgb(17,78,142);
+  background: linear-gradient(360deg, rgba(17,78,142,1) 0%, rgba(32,104,181,1) 66%);
+  border-radius: 10px;
+  padding-top: 50px;
+  -webkit-box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+  
+}
+.btnbtn{
+  background-color: #fff;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
+  color: #2169B7;
+  width: 200px;
+  height: 30px;
+
 }
 .cororate-c {
   height: 260px;
-  background-color: #2068b5;
+  background: rgb(17,78,142);
+  background: linear-gradient(360deg, rgba(17,78,142,1) 0%, rgba(32,104,181,1) 66%);
+  border-radius: 10px;
+  padding-top: 50px;
+  -webkit-box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+
+
 }
 .video-c {
-  height: 180px;
   background-color: #2068b5;
+  border-radius: 10px;
+
+
 }
-.text-de {
-  margin-top: 60px;
-}
-.de-de {
-  margin-top: 60px;
-}
-/* end  contact */
+
+
+#video-popup-container {
+	display:none;
+	position: fixed;
+	z-index: 996;
+	width: 60%;
+	left: 50%;
+	margin-left: -30%;
+	top: 20%;
+	background-color: #fff;
+  }
+  
+  #video-popup-close {
+	cursor: pointer;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	z-index: 998;
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 12px;
+	background-color: #000;
+	line-height: 25px;
+	color: #fff;
+  }
+  
+  #video-popup-iframe-container {
+	position: absolute;
+	z-index: 997;
+	width: 100%;
+	padding-bottom: 56.25%;
+	border: 2px solid #000;
+	border-radius: 2px;
+	background-color: #000;
+  }
+  
+  #video-popup-iframe {
+	z-index: 999;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #000;
+  }
+  
+  #video-popup-overlay {
+	display: none;
+	position: fixed;
+	z-index: 995;
+	top: 0;
+	background-color: #000;
+	opacity: 0.8;
+	width: 100%;
+	height: 100%;
+  }
+  
+  #video-popup-close:hover {
+	color: #DE0023;
+  }
