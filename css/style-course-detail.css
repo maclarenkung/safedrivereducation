@@ -62,6 +62,17 @@ box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
   height: 30px;
 
 }
+.btnvideo{
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: none;
+  font-weight: bold;
+  color: #2169B7;
+  width: 50px;
+  height: 50px;
+
+}
 .cororate-c {
   height: 260px;
   background: rgb(17,78,142);
@@ -77,8 +88,30 @@ box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
 .video-c {
   background-color: #2068b5;
   border-radius: 10px;
+  height: 150px;
 
 
+}
+.card-activity{
+  height: 300px;
+}
+.timeactivity{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(360deg, rgba(17,78,142,1) 0%, rgba(32,104,181,1) 66%);
+  -webkit-box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 33px -12px rgba(0,0,0,0.75);
+
+}
+.img-activity{
+  width: 100%;
+  height: 150px;
+  background-color: grey;
+}
+.textactivity{
+  color: #585858;
 }
 
 
