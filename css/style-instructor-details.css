@@ -15,6 +15,16 @@
 .card img{
 
 }
+.headtext{
+  color: #125091;
+  font-weight: bold;
+}
+.textcaption{
+  color: #125091;
+}
+.textcaption i{
+  color: #FFBA2C;
+} 
 .cardcoursestitle{
   color: #125091;
   font-weight: bold;
@@ -65,7 +75,6 @@
 .text-of {
   border-style: groove;
   border-width: 4px;
-  border-radius: 10px;
   border-color: #2068b5;
 }
 .detail {

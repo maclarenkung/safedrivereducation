@@ -7,6 +7,32 @@
 /* END HEADER  */
 
 /* article line  */
+.content-art{
+  height: 2400px;
+}
+.card{
+  height: auto;
+  box-shadow: 0 3px 6px #e6e6e6;
+
+}
+
+.headtext{
+  color: #125091;
+  font-weight: bold;
+}
+
+.btn-share{
+  color: #2068b5;
+  border-color: #2068b5;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.btn-view{
+  color: #ED6B6B;
+  border-color: #ED6B6B;
+  border-radius: 10px;
+  background-color: transparent;
+}
 .line {
   width: 100%;
   height: 6px;
@@ -28,9 +54,33 @@
 }
 .load-m {
   color: white;
+  font-weight: bold;
   padding: 10px 150px;
-  background-color: #2068b5;
+  background-color: #125091;
+  border: none;
+  border-radius: 50px;
+}
+.comment{
+  border: solid;
+  border-width: 2px;
+  border-color: #125091;
   border-radius: 20px;
+  width: 100%;
+}
+.usercomment{
+  width: 100%;
+  height: auto;
+  background-color: #125091;
+  border-radius: 20px;
+
+}
+.btncomment{
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #125091;
+  padding: 10px 30px;
+  right: 0;
+  position: absolute;
 }
 /* end article line  */
 
