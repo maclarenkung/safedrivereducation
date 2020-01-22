@@ -7,7 +7,7 @@
 /* END HEADER  */
 
 /* article line  */
-.headtext{
+.headtext {
   color: #125091;
   font-weight: bold;
 }
@@ -42,7 +42,9 @@
 .head {
   margin-top: 120px;
 }
-
+.text-blue {
+  color: #2068b5;
+}
 /* calendar */
 .content {
   overflow: none;
