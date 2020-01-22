@@ -8,10 +8,12 @@ h4,
 h5,
 h6 {
   font-family: "Kanit", sans-serif !important;
+  font-weight: 400 !important;
 }
 .navbar-nav {
   font-family: "Kanit", sans-serif !important;
 }
+
 /* HOME  */
 /* logo  */
 
@@ -24,9 +26,9 @@ nav .container {
   height: 90px;
 }
 .btnav {
-  height: 10px;
+  height: 5px;
   background-color: #eaaa28;
-  margin-top: 0rem;
+  margin-top: 5px;
   margin-bottom: 0rem;
 }
 .logo-sm {

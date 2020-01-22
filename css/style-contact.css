@@ -2,7 +2,10 @@
 /* header  */
 
 /* END HEADER  */
-
+.contact-header {
+  height: 240px;
+  background-image: url(../pic/banner-vision.png);
+}
 /* article line  */
 .headtext {
   color: #125091;
@@ -45,7 +48,7 @@
 
 /* form  */
 .contact-form {
-  height: 800px;
+  height: 600px;
 }
 .head-contact {
   margin-left: 80px;
