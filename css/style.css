@@ -24,7 +24,7 @@ nav .container {
   height: 90px;
 }
 .btnav {
-  height: 10px;
+  height: 5px;
   background-color: #eaaa28;
   margin-top: 0rem;
   margin-bottom: 0rem;
@@ -179,7 +179,7 @@ nav .container {
   height: 1340px;
 }
 .freehand {
-  height: 250px;
+  
   background-image: url(../pic/freehand.png);
   padding-left: 0px;
   padding-right: 0px;
@@ -189,6 +189,7 @@ nav .container {
 
 /* pre footer  */
 .prefooter {
+<<<<<<< Updated upstream
   height: 270px;
   background: rgb(17, 78, 142);
   background: linear-gradient(
@@ -196,6 +197,11 @@ nav .container {
     rgba(17, 78, 142, 1) 0%,
     rgba(32, 104, 181, 1) 66%
   );
+=======
+ 
+background: rgb(17,78,142);
+background: linear-gradient(360deg, rgba(17,78,142,1) 0%, rgba(32,104,181,1) 66%);
+>>>>>>> Stashed changes
 }
 .linknav a {
   color: white;
@@ -203,7 +209,7 @@ nav .container {
 /* end pre footer  */
 /* footer  */
 footer {
-  height: 210px;
+
 }
 .color-icon {
   color: #114e8f;
@@ -214,4 +220,37 @@ footer {
 }
 /* end footer  */
 
+/* @media */
+  .image2 {
+
+      display: none;
+ }
+
+@media only screen and (min-width: 1920px){
+    .image1 {
+        
+     display: none;
+     
+        
+      }
+
+    .image2 {
+    
+     display: block;
+     
+      
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .image1 {
+    
+        display: none;
+
+       
+    }
+}
+
 /* END HOME  */
+
+
