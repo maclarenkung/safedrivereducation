@@ -42,7 +42,7 @@ nav .container {
   background-image: url(../pic/header.png);
 }
 .home {
-  width: 216px;
+  width: 100%;
   padding: 10px 10px;
   background-color: #ffba2c;
   border-radius: 20px;
