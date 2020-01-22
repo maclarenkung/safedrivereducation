@@ -1,30 +1,30 @@
 /* VISION FOR SAFTETY  */
 /* header  */
 .vision-header {
-  height: 400px;
-  background-image: url(../pic/article-header.png);
+  height: 240px;
+  background-image: url(../pic/banner-vision.png);
 }
 /* END HEADER  */
 
 /* article line  */
-.headtext{
+.headtext {
   color: #125091;
   font-weight: bold;
 }
-.card{
+.card {
   height: 520px;
 }
-.cardcoursestitle{
+.cardcoursestitle {
   color: #125091;
   font-weight: bold;
 }
-.cardcoursestext{
+.cardcoursestext {
   color: #125091;
-    }
-.cardcoursestext1{
+}
+.cardcoursestext1 {
   color: #585858;
 }
-.cardcoursesdate{
+.cardcoursesdate {
   color: #ffba2c;
   font-weight: bold;
   bottom: 0;
@@ -32,7 +32,7 @@
   padding-bottom: 20px;
   /* avertical-align: text-bottom; */
 }
-hr.hrline{
+hr.hrline {
   border: none;
   border-bottom: 5px solid #ffba2c;
 }
