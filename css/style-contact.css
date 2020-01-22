@@ -4,26 +4,24 @@
 /* END HEADER  */
 
 /* article line  */
-.headtext{
+.headtext {
   color: #125091;
   font-weight: bold;
 }
 .card {
   height: 450px;
   box-shadow: 0 3px 6px #e6e6e6;
-
 }
-.card img{
-
+.card img {
 }
-.cardcoursestitle{
+.cardcoursestitle {
   color: #125091;
   font-weight: bold;
 }
-.cardcoursestext{
+.cardcoursestext {
   color: #125091;
-    }
-.cardcoursestext1{
+}
+.cardcoursestext1 {
   color: #585858;
 }
 .line {
@@ -47,7 +45,7 @@
 
 /* form  */
 .contact-form {
-  height: 940px;
+  height: 800px;
 }
 .head-contact {
   margin-left: 80px;
@@ -65,8 +63,13 @@
 .address {
   border-radius: 20px;
   height: 500px;
-  background: rgb(17,78,142);
-  background: linear-gradient(360deg, rgba(17,78,142,1) 0%, rgba(32,104,181,1) 66%);  box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background: rgb(17, 78, 142);
+  background: linear-gradient(
+    360deg,
+    rgba(17, 78, 142, 1) 0%,
+    rgba(32, 104, 181, 1) 66%
+  );
+  box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   -moz-box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.19),
     0 6px 6px rgba(0, 0, 0, 0.23);
   -webkit-box-shadow: 3px 8px 16px rgba(0, 0, 0, 0.19),
