@@ -14,6 +14,56 @@ h6 {
   font-family: "Kanit", sans-serif !important;
 }
 
+/* sizing component*/
+.text-white{
+  color: white;
+}
+.text-blueprimary{
+  color: #125091 !important;
+
+}
+.text-bluesecondary{
+  
+  color: #114E8F;
+}
+.bg-blueprimary{
+  background-color: #125091 !important;
+}
+.bg-white{
+  background-color: white;
+}
+.pt-90{
+  padding-top: 90px;
+}
+.pt-60{
+  padding-top: 60px;
+
+}
+.mt-70{
+  margin-top: 70px;
+}
+.h-5{
+  height: 5px;
+}
+
+.pl-100{
+  padding-left: 100px;
+}
+.pr-100{
+  padding-right: 100px;
+}
+.zindex999{
+  z-index: 999;
+}
+.zindex999-dpnone{
+  z-index: 999;
+  display: none;
+}
+.h-200{
+height: 200px;
+}
+/* end sizing component */
+
 /* HOME  */
 /* logo  */
 
@@ -25,6 +75,11 @@ h6 {
 nav .container {
   height: 90px;
 }
+
+
+.list-style-type-n{
+  list-style-type: none;
+}
 .btnav {
   height: 5px;
   background-color: #eaaa28;
@@ -34,6 +89,20 @@ nav .container {
 .logo-sm {
   background-image: url(../pic/logo_sm.png);
 }
+.img-logo{
+  position: absolute; 
+  margin-left: -100px;
+  z-index: 99;
+}
+.pic-logo-white{
+  width: 20%;
+    margin-left: 200px;
+    margin-top: 232px;
+    z-index: 999;
+    position: absolute;
+}
+
+
 /* end nav  */
 
 /* header  */
@@ -51,6 +120,17 @@ nav .container {
 /* end header  */
 
 /* low header  */
+.banner-home-content{
+  bottom: 0; 
+  padding-top: 100px;
+}
+.banner-title{
+  text-align: left;
+  font-weight: bold; 
+  font-size: 48px;
+  color: white;
+  padding-top: 88px;
+}
 .lowheader {
   height: 740px;
 }
@@ -69,6 +149,16 @@ nav .container {
   cursor: pointer;
   color: #fff;
   border: none;
+}
+.getfreebutton{
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #125091;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  width: 200px; height: 50px; font-size: 20px;
 }
 .vl {
   border-left: 3px solid green;
@@ -187,6 +277,18 @@ nav .container {
   padding-right: 0px;
   margin-top: 100px;
 }
+.card-tips{
+  max-width: 585px; 
+  height: 150px;
+}
+.card-tips-img{
+  height: 150px; 
+  object-fit:cover;
+}
+.fb-extend{
+  border:none;
+  overflow:hidden
+}
 /* end content  */
 
 /* pre footer  */
@@ -214,6 +316,10 @@ footer {
   font-size: 60px;
   color: #114e8f;
 }
+.ft-social{
+  display:inline; 
+  color: #114E8F;
+}
 /* end footer  */
 
 /* @media */
@@ -238,3 +344,4 @@ footer {
 }
 
 /* END HOME  */
+
