@@ -433,6 +433,9 @@ footer {
   border: none;
   font-weight: bold;
 }
+.load-m h2{
+  font-size: 20px !important;
+}
 /* end article line  */
 /* END VISION */
 
@@ -499,6 +502,12 @@ footer {
 .btn-share {
   color: #2068b5;
   border-color: #2068b5;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.btn-view {
+  color: #ED6B6B;
+  border-color: #ED6B6B;
   border-radius: 10px;
   background-color: transparent;
 }
@@ -1086,3 +1095,64 @@ footer {
   }
 }
 /* end course calendar */
+
+/* article */
+.card-article {
+  width: 100%;
+  height: auto;
+}
+.card-article img {
+  height: 232px;
+}
+.card-article-body {
+  height: 150px;
+}
+.card-detail-article-body {
+  height: 200px;
+}
+.cardarticleseemore {
+  color: #ffba2c;
+  font-weight: bold;
+  bottom: 0;
+  position: absolute;
+  /* padding-top: 20px !important; */
+  padding: 0 15px 15px 15px;
+
+  /* avertical-align: text-bottom; */
+}
+.comment {
+  border: solid;
+  border-width: 2px;
+  border-color: #125091;
+  border-radius: 20px;
+  width: 100%;
+}
+.usercomment {
+  width: 100%;
+  height: auto;
+  background-color: #125091;
+  border-radius: 20px;
+}
+.usercomment h1{
+  margin-top:40%;
+}
+.btncomment {
+  color: #ffffff;
+  border-radius: 10px;
+  background-color: #125091;
+  padding: 010px 30px;
+  right: 0;
+  position: absolute;
+  margin-bottom: 20px;
+}
+.article-hr{
+  background-color: #125091; 
+  height: 1px; 
+  border-radius: 50px;
+}
+.card-article-detail {
+  width: 100%;
+  height: auto;
+    box-shadow: 0 3px 6px #e6e6e6;
+}
+/* end article */
