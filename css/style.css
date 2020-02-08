@@ -13,36 +13,40 @@ h6 {
 .navbar-nav {
   font-family: "Kanit", sans-serif !important;
 }
-
-/* sizing component*/
-.text-white{
+.nav-item {
+  margin-right: 10px !important;
+}
+.article-head {
+  padding-top: 88px;
   color: white;
 }
-.text-blueprimary{
-  color: #125091 !important;
 
+/* sizing component*/
+.text-white {
+  color: white;
 }
-.text-bluesecondary{
-  
-  color: #114E8F;
+.text-blueprimary {
+  color: #125091 !important;
 }
-.bg-blueprimary{
+.text-bluesecondary {
+  color: #114e8f;
+}
+.bg-blueprimary {
   background-color: #125091 !important;
 }
-.bg-white{
+.bg-white {
   background-color: white;
 }
-.pt-90{
+.pt-90 {
   padding-top: 90px;
 }
-.pt-60{
+.pt-60 {
   padding-top: 60px;
-
 }
-.pb-200{
+.pb-200 {
   padding-bottom: 200px;
 }
-.mt-70{
+.mt-70 {
   margin-top: 70px;
 }
 .mt-20 {
@@ -52,28 +56,28 @@ h6 {
   margin-top: 90px;
   padding-bottom: 200px;
 }
-.h-5{
+.h-5 {
   height: 5px;
 }
 
-.pl-100{
+.pl-100 {
   padding-left: 100px;
 }
-.pr-100{
+.pr-100 {
   padding-right: 100px;
 }
-.zindex999{
+.zindex999 {
   z-index: 999;
 }
-.zindex99{
-z-index: 99;
+.zindex99 {
+  z-index: 99;
 }
-.zindex999-dpnone{
+.zindex999-dpnone {
   z-index: 999;
   display: none;
 }
-.h-200{
-height: 200px;
+.h-200 {
+  height: 200px;
 }
 /* end sizing component */
 
@@ -89,8 +93,7 @@ nav .container {
   height: 90px;
 }
 
-
-.list-style-type-n{
+.list-style-type-n {
   list-style-type: none;
 }
 .btnav {
@@ -102,19 +105,18 @@ nav .container {
 .logo-sm {
   background-image: url(../pic/logo_sm.png);
 }
-.img-logo{
-  position: absolute; 
+.img-logo {
+  position: absolute;
   margin-left: -100px;
   z-index: 99;
 }
-.pic-logo-white{
+.pic-logo-white {
   width: 20%;
-    margin-left: 200px;
-    margin-top: 232px;
-    z-index: 999;
-    position: absolute;
+  margin-left: 200px;
+  margin-top: 232px;
+  z-index: 999;
+  position: absolute;
 }
-
 
 /* end nav  */
 
@@ -133,13 +135,13 @@ nav .container {
 /* end header  */
 
 /* low header  */
-.banner-home-content{
-  bottom: 0; 
+.banner-home-content {
+  bottom: 0;
   padding-top: 100px;
 }
-.banner-title{
+.banner-title {
   text-align: left;
-  font-weight: bold; 
+  font-weight: bold;
   font-size: 48px;
   color: white;
   padding-top: 88px;
@@ -163,7 +165,7 @@ nav .container {
   color: #fff;
   border: none;
 }
-.getfreebutton{
+.getfreebutton {
   font-weight: bold;
   padding: 10px 20px;
   background-color: #125091;
@@ -171,7 +173,9 @@ nav .container {
   cursor: pointer;
   color: #fff;
   border: none;
-  width: 200px; height: 50px; font-size: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
 }
 .vl {
   border-left: 3px solid green;
@@ -290,17 +294,17 @@ nav .container {
   padding-right: 0px;
   margin-top: 100px;
 }
-.card-tips{
-  max-width: 585px; 
+.card-tips {
+  max-width: 585px;
   height: 150px;
 }
-.card-tips-img{
-  height: 150px; 
-  object-fit:cover;
+.card-tips-img {
+  height: 150px;
+  object-fit: cover;
 }
-.fb-extend{
-  border:none;
-  overflow:hidden
+.fb-extend {
+  border: none;
+  overflow: hidden;
 }
 /* end content  */
 
@@ -329,9 +333,9 @@ footer {
   font-size: 60px;
   color: #114e8f;
 }
-.ft-social{
-  display:inline; 
-  color: #114E8F;
+.ft-social {
+  display: inline;
+  color: #114e8f;
 }
 /* end footer  */
 
@@ -390,7 +394,7 @@ footer {
   background-position: center center;
   border: none; */
 }
-.vision-content-img{
+.vision-content-img {
   width: 100%;
   height: 762px;
 }
@@ -427,7 +431,7 @@ footer {
 /* END VISION */
 
 /* article line  */
-.card-course{
+.card-course {
   width: 100%;
   height: auto;
   box-shadow: 0 3px 6px #e6e6e6;
@@ -445,7 +449,6 @@ footer {
 .cardcoursestext1 {
   color: #585858;
   padding-bottom: 20px;
-
 }
 .cardcoursesdate {
   color: #ffba2c;
@@ -473,5 +476,35 @@ footer {
 
 .road {
   height: 640px;
+}
+.cardcoursesdate2 {
+  color: #ffba2c;
+  font-weight: bold;
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 20px;
+}
+hr.hrline {
+  border: none;
+  border-bottom: 5px solid #ffba2c;
+}
+.card-article {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  height: 520px;
+  border: none;
+  width: 100%;
+}
+.load-m h2 {
+  font-size: 20px;
 }
 /* end article */
