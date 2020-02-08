@@ -35,6 +35,9 @@ h6 {
 .pt-90{
   padding-top: 90px;
 }
+.pt-100{
+  padding-top: 100px;
+}
 .pt-60{
   padding-top: 60px;
 
@@ -435,16 +438,23 @@ footer {
 .card-course img {
   height: 232px;
 }
+.card-course-body{
+  height: 150px;
+}
 .cardcoursestitle {
   color: #125091;
   font-weight: bold;
+  padding: 15px 15px 0 15px;
 }
 .cardcoursestext {
   color: #125091;
+  padding: 0 15px 0 15px;
+
 }
 .cardcoursestext1 {
   color: #585858;
-  padding-bottom: 20px;
+  padding: 0 15px 0 15px;
+
 
 }
 .cardcoursesdate {
@@ -452,8 +462,9 @@ footer {
   font-weight: bold;
   bottom: 0;
   position: absolute;
-  padding-top: 20px !important;
-  padding-bottom: 20px;
+  /* padding-top: 20px !important; */
+  padding: 0 15px 15px 15px;
+
   /* avertical-align: text-bottom; */
 }
 .instructortab {
@@ -473,5 +484,9 @@ footer {
 
 .road {
   height: 640px;
+}
+.bt-instructor{
+  font-size: 20px; 
+  padding-top: 10px;
 }
 /* end article */
