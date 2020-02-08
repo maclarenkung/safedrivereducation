@@ -407,11 +407,71 @@ footer {
   margin-top: 100px;
 }
 
-.load-m {
+/* .load-m {
   color: white;
   padding: 10px 150px;
   background-color: #2068b5;
   border-radius: 20px;
+} */
+.load-m {
+  color: white;
+  height: 50px;
+  padding: 10px 100px;
+  background-color: #125091;
+  margin-top: 30px;
+  border-radius: 50px;
+  border: none;
+  font-weight: bold;
 }
 /* end article line  */
 /* END VISION */
+
+/* article line  */
+.card-course{
+  width: 100%;
+  height: auto;
+  box-shadow: 0 3px 6px #e6e6e6;
+}
+.card-course img {
+  height: 232px;
+}
+.cardcoursestitle {
+  color: #125091;
+  font-weight: bold;
+}
+.cardcoursestext {
+  color: #125091;
+}
+.cardcoursestext1 {
+  color: #585858;
+  padding-bottom: 20px;
+
+}
+.cardcoursesdate {
+  color: #ffba2c;
+  font-weight: bold;
+  bottom: 0;
+  position: absolute;
+  padding-top: 20px !important;
+  padding-bottom: 20px;
+  /* avertical-align: text-bottom; */
+}
+.instructortab {
+  height: 241px;
+  background-image: url(../pic/instructortab.png);
+}
+.instructor {
+  width: 400px;
+  padding: 10px 10px;
+  background-color: #ffba2c;
+  border-radius: 50px;
+  color: white;
+  margin-top: 100px;
+  border: none;
+}
+/* end register tab */
+
+.road {
+  height: 640px;
+}
+/* end article */
