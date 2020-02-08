@@ -40,10 +40,10 @@ h6 {
 .pt-90 {
   padding-top: 90px;
 }
-.pt-100{
+.pt-100 {
   padding-top: 100px;
 }
-.pt-60{
+.pt-60 {
   padding-top: 60px;
 }
 .pb-200 {
@@ -119,6 +119,9 @@ nav .container {
   margin-top: 232px;
   z-index: 999;
   position: absolute;
+}
+.head {
+  margin-top: 120px;
 }
 
 /* end nav  */
@@ -442,7 +445,7 @@ footer {
 .card-course img {
   height: 232px;
 }
-.card-course-body{
+.card-course-body {
   height: 150px;
 }
 .cardcoursestitle {
@@ -453,13 +456,10 @@ footer {
 .cardcoursestext {
   color: #125091;
   padding: 0 15px 0 15px;
-
 }
 .cardcoursestext1 {
   color: #585858;
   padding: 0 15px 0 15px;
-
-
 }
 .cardcoursesdate {
   color: #ffba2c;
@@ -489,8 +489,8 @@ footer {
 .road {
   height: 640px;
 }
-.bt-instructor{
-  font-size: 20px; 
+.bt-instructor {
+  font-size: 20px;
   padding-top: 10px;
 }
 /* end article */
