@@ -1,18 +1,14 @@
 /* article de */
 /* header  */
-.vision-header {
-  height: 240px;
-  background-image: url(../pic/article-de-head.png);
-}
+
 /* END HEADER  */
 
 /* article line  */
-.card {
+.card-instructor {
   height: 450px;
   box-shadow: 0 3px 6px #e6e6e6;
 }
-.card img {
-}
+
 .cardcoursestitle {
   color: #125091;
   font-weight: bold;
