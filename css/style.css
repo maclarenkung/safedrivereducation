@@ -389,10 +389,8 @@ nav .container {
 
 /* pre footer  */
 .prefooter {
-<<<<<<< Updated upstream
-=======
-  /* height: 270px; */
->>>>>>> Stashed changes
+  height: auto;
+
   background: rgb(17, 78, 142);
   background: linear-gradient(
     360deg,
