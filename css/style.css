@@ -249,9 +249,7 @@ nav .container {
   border-radius: 50px;
   border: none;
 }
-.card-shadow {
-  box-shadow: 0 3px 6px #e6e6e6;
-}
+/* this card collasel */
 .card {
   height: 322px;
 }
@@ -270,6 +268,51 @@ nav .container {
   font-weight: bold;
   /* avertical-align: text-bottom; */
 }
+/* end card collasel */
+
+.card-index {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 3px 6px #e6e6e6;
+}
+
+.card-index-body {
+  height: 150px;
+}
+.cardindexstitle {
+  color: #125091;
+  font-weight: bold;
+  padding: 15px 15px 0 15px;
+}
+.cardindexstext {
+  color: #585858;
+  padding: 0 15px 0 15px;
+}
+
+.cardindexsdate {
+  color: #ffba2c;
+  font-weight: bold;
+  bottom: 0;
+  position: absolute;
+  /* padding-top: 20px !important; */
+  padding: 0 15px 15px 15px;
+
+  /* avertical-align: text-bottom; */
+}
+.cardindexstips-bt {
+  color: #ffba2c;
+  font-weight: bold;
+  bottom: 0;
+  position: absolute;
+  /* padding-top: 20px !important; */
+  padding: 0 15px 0 15px;
+
+  /* avertical-align: text-bottom; */
+}
+.card-shadow {
+  box-shadow: 0 3px 6px #e6e6e6;
+}
+
 .register {
   width: 400px;
   padding: 10px 10px;
@@ -314,6 +357,19 @@ nav .container {
   height: 150px;
   object-fit: cover;
 }
+.card-safty-tips {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 3px 6px #e6e6e6;
+
+}
+.card-safty-tips  img {
+  height: 232px;
+}
+.card-safty-tips-body  {
+  height: 150px;
+}
+
 .fb-extend {
   border: none;
   overflow: hidden;
