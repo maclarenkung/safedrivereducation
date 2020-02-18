@@ -65,7 +65,7 @@ h6 {
   color: #ae5fce;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1281px) {
   .lines {
     width: 30px;
     height: 3px;
@@ -577,13 +577,13 @@ footer {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1281px) {
   .nav2 {
     display: none;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1281px) {
   .image1 {
     display: none;
   }
@@ -1541,7 +1541,7 @@ footer {
 
 /* mobile */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1281px) {
   .img-logo {
     display: none;
   }
