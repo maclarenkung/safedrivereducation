@@ -10,6 +10,123 @@ h6 {
   font-family: "Kanit", sans-serif !important;
   font-weight: 400 !important;
 }
+.navmo {
+  height: 10vh;
+  background: white;
+}
+.logo-mb {
+  position: absolute;
+  /* z-index: 99; */
+}
+.actives {
+  color: #000;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.landing {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing h1 {
+  margin: 100px;
+  font-size: 50px;
+  color: #ae5fce;
+}
+
+@media screen and (max-width: 768px) {
+  .lines {
+    width: 30px;
+    height: 3px;
+    background: #125091;
+    margin: 5px;
+  }
+  nav {
+    position: relative;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+  .white {
+    background-color: white;
+  }
+  .nav-links {
+    z-index: 1;
+    position: fixed;
+    background: linear-gradient(
+      360deg,
+      rgba(17, 78, 142, 1) 0%,
+      rgba(32, 104, 181, 1) 66%
+    );
+    height: 80%;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(0px at 90% -10%);
+    -webkit-clip-path: circle(0px at 90% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+  }
+  .nav-links.open {
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -10%);
+    pointer-events: all;
+  }
+  .landing {
+    flex-direction: column;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .nav-links li a {
+    font-size: 25px;
+  }
+  .nav-links li:nth-child(1) {
+    transition: all 0.5s ease 0.2s;
+  }
+  .nav-links li:nth-child(2) {
+    transition: all 0.5s ease 0.4s;
+  }
+  .nav-links li:nth-child(3) {
+    transition: all 0.5s ease 0.6s;
+  }
+  .nav-links li:nth-child(4) {
+    transition: all 1s ease 0.8s;
+  }
+  .nav-links li:nth-child(5) {
+    transition: all 1s ease 1s;
+  }
+  .nav-links li:nth-child(6) {
+    transition: all 1.2s ease 1.2s;
+  }
+  .nav-links li:nth-child(7) {
+    transition: all 1.4s ease 1.4s;
+  }
+  li.fades {
+    opacity: 1;
+  }
+}
 .navbar-nav {
   font-family: "Kanit", sans-serif !important;
 }
@@ -50,7 +167,8 @@ h6 {
   padding-bottom: 200px;
 }
 .mt-70 {
-  margin-top: 70px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 .mt-20 {
   margin-top: 20px;
@@ -185,6 +303,8 @@ nav .container {
   border: none;
 }
 .getfreebutton {
+  margin-top: 30px;
+  text-align: center;
   margin-bottom: 20px;
   font-weight: bold;
   padding: 10px 20px;
@@ -285,7 +405,7 @@ nav .container {
 }
 
 .card-index-body {
-  height: 150px;
+  height: auto;
 }
 .cardindexstitle {
   color: #125091;
@@ -301,11 +421,15 @@ nav .container {
   color: #ffba2c;
   font-weight: bold;
   bottom: 0;
-  position: absolute;
+  /* position: absolute; */
   /* padding-top: 20px !important; */
   padding: 0 15px 15px 15px;
 
   /* avertical-align: text-bottom; */
+}
+._2p3a {
+  min-width: 180px;
+  width: 100% !important;
 }
 .cardindexstips-bt {
   color: #ffba2c;
@@ -360,6 +484,7 @@ nav .container {
   padding-left: 0px;
   padding-right: 0px;
   margin-top: 100px;
+  height: auto;
 }
 .card-tips {
   max-width: 585px;
@@ -1149,7 +1274,7 @@ footer {
   .events-container,
   .year-header,
   .calendar-container {
-    width: 320px;
+    /* width: 320px; */
   }
   .dialog {
     width: 320px;
@@ -1419,7 +1544,7 @@ footer {
     display: none;
   }
   .facebooktab {
-    height: 500px;
+    height: auto;
     margin-bottom: 30px;
   }
 }
