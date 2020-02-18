@@ -712,7 +712,7 @@ footer {
   background-image: url(../pic/instructortab.png);
 }
 .instructor {
-  width: 400px;
+  width: 100%;
   padding: 10px 10px;
   background-color: #ffba2c;
   border-radius: 50px;
@@ -752,7 +752,7 @@ footer {
   font-weight: bold;
 }
 .detail {
-  height: 2080px;
+  height: auto;
 }
 .head-de {
   padding-top: 90px;
@@ -1450,7 +1450,7 @@ footer {
   padding-bottom: 100px;
 }
 .sde-course {
-  height: 890px;
+  height: auto;
   background-color: #2068b5;
 }
 .line-2 {
@@ -1474,7 +1474,7 @@ footer {
 
 /* mission  */
 .mission {
-  height: 890px;
+  height: auto;
 }
 .head-mission {
   padding-top: 100px;
