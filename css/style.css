@@ -11,8 +11,23 @@ h6 {
   font-weight: 400 !important;
 }
 .navmo {
-  height: 10vh;
+  height: auto;
   background: white;
+}
+.logo-top {
+  padding-top: 0px !important;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.logonone {
+  display: none;
+  /* opacity: 0; */
+  transition: all 1s ease-out;
+}
+.ham-top {
+  margin-top: 40px;
+  transition: all 1s ease-out;
 }
 .logo-mb {
   position: absolute;
