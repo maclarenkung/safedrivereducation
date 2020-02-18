@@ -276,6 +276,8 @@ nav .container {
   background-image: url(../pic/header.png);
 }
 .home {
+  font-family: kanit;
+  font-weight: 600;
   width: 100%;
   padding: 10px 10px;
   background-color: #ffba2c;
@@ -302,7 +304,7 @@ nav .container {
 .title3button {
   margin-top: 10px;
   color: #125091;
-  font-weight: bold !important;
+  font-weight: 600 !important;
 }
 .sub3button {
   color: #ffba2c;
@@ -321,7 +323,7 @@ nav .container {
   margin-top: 30px;
   text-align: center;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 600;
   padding: 10px 20px;
   background-color: #125091;
   border-radius: 50px;
@@ -331,6 +333,7 @@ nav .container {
   width: 200px;
   height: 50px;
   font-size: 20px;
+  font-family: kanit;
 }
 .vl {
   border-left: 3px solid green;
@@ -360,12 +363,17 @@ nav .container {
   padding-left: 20px;
 }
 .pd-x {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 .lower {
   padding-left: 0px;
   padding-right: 0px;
+  margin-top: -20px;
 }
+#carouselExampleControls {
+  margin-top: -32px;
+}
+
 /* end low header  */
 
 /* sde course  */
@@ -385,6 +393,7 @@ nav .container {
   margin-top: 105px;
 }
 .all-course {
+  font-family: kanit;
   padding: 10px 20px;
   background-color: white;
   color: #125091;
@@ -394,7 +403,7 @@ nav .container {
 }
 /* this card collasel */
 .card {
-  height: 322px;
+  height: 350px;
 }
 .cardcoursestitle {
   color: #125091;
@@ -461,7 +470,7 @@ nav .container {
 }
 
 .register {
-  /* width: 400px; */
+  width: 400px;
   padding: 10px 10px;
   background-color: #ffba2c;
   color: #fff;
@@ -502,7 +511,7 @@ nav .container {
   height: auto;
 }
 .card-tips {
-  max-width: 585px;
+  /* max-width: 585px; */
   height: 150px;
 }
 .card-tips-img {
@@ -529,6 +538,7 @@ nav .container {
 
 /* pre footer  */
 .prefooter {
+  margin-top: 40px;
   height: auto;
 
   background: rgb(17, 78, 142);
@@ -592,6 +602,9 @@ footer {
   }
   .sdecourse {
     display: none;
+  }
+  .register {
+    width: 100%;
   }
 }
 
@@ -687,11 +700,15 @@ footer {
 .cardcoursestitle {
   color: #125091;
   font-weight: bold;
-  padding: 15px 15px 0 15px;
+  /* padding: 15px 15px 0 15px; */
+}
+.pd {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
 }
 .cardcoursestext {
   color: #125091;
-  padding: 0 15px 0 15px;
+  /* padding: 0 15px 0 15px; */
 }
 .cardcoursestext1 {
   color: #585858;
