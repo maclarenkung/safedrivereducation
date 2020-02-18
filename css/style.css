@@ -700,7 +700,10 @@ footer {
 .cardcoursestitle {
   color: #125091;
   font-weight: bold;
-  /* padding: 15px 15px 0 15px; */
+  padding: 15px 15px 0 15px;
+}
+.material-icons{
+  font-size: 40px!important;
 }
 .pd {
   padding-right: 10px !important;
@@ -708,7 +711,7 @@ footer {
 }
 .cardcoursestext {
   color: #125091;
-  /* padding: 0 15px 0 15px; */
+  padding: 0 15px 0 15px;
 }
 .cardcoursestext1 {
   color: #585858;
@@ -720,7 +723,7 @@ footer {
   bottom: 0;
   position: absolute;
   /* padding-top: 20px !important; */
-  padding: 0 15px 15px 0px;
+  padding: 15px 15px 15px 15px;
 
   /* avertical-align: text-bottom; */
 }
@@ -1548,12 +1551,14 @@ footer {
   font-size: 40px;
 }
 .send-bt {
-  color: white;
-  font-weight: bold;
-  padding: 10px 100px;
-  background-color: #125091;
-  border: none;
-  border-radius: 50px;
+      color: white;
+    font-weight: 600;
+    padding: 10px 100px;
+    background-color: #125091;
+    border: none;
+    border-radius: 50px;
+    font-size: 36px!important;
+    font-family: kanit;
 }
 
 /* mobile */
